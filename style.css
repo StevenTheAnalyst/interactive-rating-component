@@ -1,0 +1,166 @@
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+- Weights: 400, 700
+
+ */
+
+ body {
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+ }
+
+ .background {
+  width: 1440px;
+  height: 800px;
+ }
+
+ header {
+  color: white;
+  font-weight: 700;
+ }
+
+ p {
+  color: hsl(216, 12%, 54%);
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-bottom: 1.2em;
+ }
+
+ .card {
+  background-color: #212832;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 50%;
+  border-radius: 10px;
+ }
+
+ .card-container, .ty-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+ }
+
+ img {
+  width: 12px;
+ }
+
+ .icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+ }
+
+ button, .icon-container {
+  background-color: rgb(39, 46, 56);
+  border: none;
+  color: #7A838C;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+ }
+
+  button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+  }
+
+  /* change button color on click */
+  button:active, .icon-container:active {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+  }
+
+ .submit {
+  background-color: white;
+  border: none;
+  color: hsl(25, 97%, 53%);
+  width: 100%;
+  height: 2.5em;
+  border-radius: 15px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+ }
+
+.submit-container {
+  padding-top: 2.5em;
+}
+
+/* Thank you */
+.ty-img {
+  width: 40%;
+}
+
+.rating {
+  color:hsl(25, 97%, 53%);
+  background-color: #262E39;
+  padding: 0.4em 1em;
+  border-radius: 15px;
+}
+
+.thank-you {
+  color: white;
+}
+
+article {
+  color: hsl(216, 12%, 54%);
+  line-height: 1.6em;
+}
+
+.ty-card {
+  background-color: #212832;
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.ty-container {
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  text-align: center;
+  padding: 1.8em 0;
+}
